@@ -1,0 +1,21 @@
+<svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="modularOlyadGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#34d399" />
+            <stop offset="100%" stop-color="#22d3ee" />
+        </linearGradient>
+        <filter id="modularOlyadGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Stylized 'O' (abstract, modern) -->
+    <path d="M20 10 L40 10 L40 30 L20 30 C10 30 10 20 10 20 C10 20 10 10 20 10 Z"
+        stroke="url(#modularOlyadGradient)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#modularOlyadGlow)"/>
+    <line x1="20" y1="20" x2="40" y2="20" stroke="url(#modularOlyadGradient)" stroke-width="5" stroke-linecap="round" filter="url(#modularOlyadGlow)"/>
+    <!-- Text "lyad" -->
+    <text x="55" y="29" font-family="Inter, sans-serif" font-weight="bold" font-size="28" fill="#f8fafc">lyad</text>
+</svg>
